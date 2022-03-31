@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.header{
+background-image: url("../shose/done/assets/img/header-bg.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+width: 100%;
+
+}
+.nav-item{
+    margin: 10px;
+}
+.nav-item a{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.726);
+    transition: 0.5s ease;
+    
+}
+.nav-item a:hover{
+    color:#ffc800 ;
+}
+.text h1{
+    font-family:"Roboto Slab script=latin rev=1";
+}
+.text a{
+    padding: 15px 35px; background-color: #ffc800; border: none; text-decoration: none;  color: #fff;
+    transition: 0.5s ease;
+    color: #fff;
+}
+.text a:hover{
+    background-color: #d9aa00;
+}
+.hero{
+    text-align: center;
+    padding: 40px 50px;
+}
+.col-4{
+    width: 13%;
+    margin: 0px 75px;
+    padding-top: 20px;
+
+}
+.col-4 img{
+    background-color: #ffc800;
+    border-radius: 40px;
+    outline: none;
+}
+
+.col-4 h1{
+    font-size: 30px;
+}
+.section-3{
+    
+    background-color: #f8f9fa;
+
+}
+.portfolio-caption-heading{
+    font-size: 30px;
+
+    font-family: 'Rubik', sans-serif;
+}
+.portfolio-caption{
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+}
+.page-section .portfolio-item{
+    transition: 0.5s ease;
+}
+.portfolio-caption-subheading .text-muted{
+    font-size: 25px;
+}
+.page-section .portfolio-item:hover{
+background-color: #eeecec;
+}
+.page-section p{
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+}
+.portfolio-item .img-fluid{
+    transition: 0.4s ease;
+
+}
+.portfolio-item .img-fluid{
+    background-color: #000;
+
+}
+
+
+.timeline {
+    
+    padding-top: 40px;
+}
+.timeline img{
+    width: 15%;
+    position: absolute;
+    left: 43%;
+    background-color: gray;
+    padding: 5px 5px;
+}
+.timeline li{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.timeline .timeline-panel{
+    position: relative;
+    text-align: right;
+}
+.line{
+    position: absolute;
+    height: 150%;
+    width: 4px;
+    background-color: gray;
+    left: 50%;
+}
+#timeline-heading-2{
+    text-align: left;
+}
+#timeline-heading-2 .timeline-heading h4{
+    
+}
+#timeline-heading-4 {
+    text-align: left;
+}
+#team .row{
+    padding-top: 20px;
+}
+.team-member img{
+
+width: 50%;
+background-color: gray;
+border-radius: 50%;
+padding: 5px 5px;
+}
+.team-member h1{
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+#contact{
+    background-image: url("./done/assets/img/3004470.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.form-group{
+    margin: 20px;
+}
+.form-group input{
+    padding: 20px 30px;
+}
+#last-button{
+    position: relative; 
+    left: 45%; 
+    text-decoration: none; 
+    list-style: none;
+    background-color: yellow;
+    opacity: 0.8;
+    padding: 10px 20px;
+    color: #fff;
+} 
+
+
+
+
+@media (max-width:799px) {
+    #team #hussain{
+        width: 50%;
+        
+    }
+    #header-h1{
+        position: relative;
+        right: 10%;
+    }
+    #header-button{
+        position: relative;
+        right: 20%;
+    }
+    #line{
+        position: absolute;
+        left: 2%;
+        height: 163%;
+
+    }
+    #timeline-heading-1{
+        position: relative;
+        left: 10%;
+        text-align: left;
+
+
+    }
+    #timeline-heading-2{
+        position: relative;
+        left: 10%;
+        text-align: left;
+
+
+    }
+    #timeline-heading-3{
+        position: relative;
+        left: 10%;
+        text-align: left;
+
+
+    }
+    #timeline-heading-4{
+        position: relative;
+        left: 10%;
+        text-align: left;
+
+
+    }
+   
+    #timeline-image{
+        position: absolute;
+        width: 100%;
+        right: 40%;
+    }
+    #team-col{
+        padding-bottom: 20px;
+    }
+    #team-img{
+        width: 50%;
+    }
+    #team-h1{
+        font-size: 40px;
+    }
+    #contact{
+        height: 135vh;
+    }
+}
